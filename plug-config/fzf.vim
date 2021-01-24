@@ -10,17 +10,17 @@ let g:fzf_action = {
 " explicitly bind the keys to down and up in your $FZF_DEFAULT_OPTS.
 let g:fzf_history_dir = '~/.local/share/fzf-history'
 
-map <C-f> :Files<CR>
-map <leader>b :Buffers<CR>
-" Search for string in all files
-nnoremap <leader>g :Rg<CR>
-nnoremap <leader>t :Tags<CR>
-nnoremap <leader>m :Marks<CR>
-
-" search for string in file
-nnoremap <leader>l :BLines<CR> 
-" search for string in files in buffer
-nnoremap <leader>L :Lines<CR> 
+"map <C-f> :Files<CR>
+""map <leader>b :Buffers<CR>
+"" Search for string in all files
+"nnoremap <leader>g :Rg<CR>
+"nnoremap <leader>t :Tags<CR>
+"nnoremap <leader>m :Marks<CR>
+"
+"" search for string in file
+"nnoremap <leader>l :BLines<CR> 
+"" search for string in files in buffer
+"nnoremap <leader>L :Lines<CR> 
 
 
 let g:fzf_tags_command = 'ctags -R'
